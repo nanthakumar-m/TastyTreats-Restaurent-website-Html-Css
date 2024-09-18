@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f4ec;
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section nav {
+  width: 100%;
+  height: 70px;
+  padding-top: 20px;
+  color: #fff;
+  /* background-color: #f8f4ec; */
+}
+
+section nav ul {
+  list-style: none;
+  text-align: end;
+}
+
+section nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  font-family: "Euphemia";
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section nav ul li:hover {
+  color: #98e54c;
+}
+
+section .text {
+  position: absolute;
+  top: 250px;
+  left: 5%;
+}
+
+section .text .word {
+  color: #cfcfcf;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+section .text h1 {
+  font-size: 50px;
+  color: #fff;
+  line-height: 65px;
+}
+
+section .text h1 span {
+  margin-right: 16px;
+  color: #98e54c;
+}
+
+section .text .textarea {
+  width: 550px;
+  margin-top: 20px;
+  color: #cfcfcf;
+  text-align: justify;
+  line-height: 25px;
+}
+
+section .text .searchbar {
+  width: 400px;
+  padding: 0 10px;
+  background: #fff;
+  margin-top: 28px;
+}
+
+section .text .searchbar input {
+  width: 350px;
+  height: 40px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: o 5px;
+}
+
+section .text .searchbar button {
+  position: absolute;
+  left: 400px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  background: #98e54c;
+  border: 0;
+}
+
+/* second */
+
+.second {
+  width: 100%;
+  height: auto;
+  background: #000;
+  padding: 50px 0;
+}
+
+.second .img-box {
+  width: 100%;
+  height: 450px;
+  padding: 0 2%;
+  display: flex;
+}
+
+.second .img-box .img-card {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.second .img-box .img-card .display-text {
+  width: 450px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 35px;
+  position: absolute;
+}
+
+.second .img-box .img-card .display-text p {
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.second .img-box .img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+}
+
+.description-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  background-color: #000;
+}
+
+.description-1 .d-text h1 {
+  color: #fff;
+  font-size: 65px;
+  font-family: "Fredfont";
+  margin-bottom: 25px;
+}
+
+.description-1 .d-text .head-title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.description-1 .d-text .desc {
+  width: 620px;
+  color: #cfcfcf;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.description-1 .d-text .dis-btn {
+  text-decoration: none;
+  color: #000;
+  padding: 8px 13px;
+  background: #98e54c;
+  font-size: 15px;
+  border-radius: 15px;
+  font-family: "Franklin Gothic Book";
+}
+
+.description-1 .dis-img {
+  width: 620px;
+  height: 620px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+/* MENU */
+
+.menu {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.menu h1 {
+  color: #fff;
+  font-family: "Euphemenia";
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.menu .m-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 1% 0;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.menu .m-box .m-cards {
+  width: 620px;
+  height: 690px;
+}
+
+.menu .m-box .m-cards .m-img {
+  width: 620px;
+  height: 620px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.menu .m-box .m-cards .m-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.menu .m-box .m-cards h6 {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.menu .m-box .m-cards .m-btn {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000;
+  background: #98e54c;
+  border-radius: 15px;
+  padding: 8px 0;
+  font-size: 15px;
+  font-family: "Franklin Gothic Book";
+}
+
+.banner {
+  width: 100%;
+  height: 90vh;
+  background: #000;
+}
+
+.banner .b-text {
+  position: absolute;
+}
+
+.banner .b-text h6 {
+  color: #fff;
+  letter-spacing: 1px;
+  position: relative;
+  top: 310px;
+  left: 14%;
+  font-size: 13px;
+}
+
+.banner .b-text h1 {
+  color: #fff;
+  position: relative;
+  top: 315px;
+  left: 14%;
+  font-size: 40px;
+}
+
+.banner .b-text p {
+  width: 550px;
+  color: #cfcfcf;
+  position: relative;
+  top: 325px;
+  left: 14%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.banner .b-text .b-btn {
+  width: 130px;
+  position: relative;
+  top: 350px;
+  left: 14%;
+  text-decoration: none;
+  color: #000;
+  background: #98e54c;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 8px 13px;
+  font-family: "Franklin Gothic Book";
+}
+
+.banner img {
+  width: 95%;
+  height: 630px;
+  display: flex;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+}
+
+/* CONTACT */
+
+.contact {
+  width: 100%;
+  height: 345px;
+  padding: 20px 0px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact .c-image img {
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+}
+.contact .subscribe h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.contact .subscribe h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.contact .subscribe .title {
+  color: #cfcfcf;
+  text-align: center;
+}
+
+.contact .subscribe .c-search {
+  margin-top: 10px;
+}
+
+.contact .subscribe .c-search input {
+  width: 250px;
+  padding: 8px 5px;
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  border-color: #98e54c;
+}
+
+.contact .subscribe .c-search button {
+  text-decoration: none;
+  background-color: #98e54c;
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 35px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Book";
+}
+
+.contact .subscribe .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-area: 10px;
+  margin-top: 25px;
+}
+
+.contact .subscribe .address .place p {
+  color: #fff;
+  font-family: "Franklin Gothic Book";
+  position: relative;
+  margin-top: 5px;
+  left: 65px;
+  align-items: center;
+}
+
+.contact .subscribe .address .follow {
+  /* font-family: "Franklin Gothic Book"; */
+  color: #fff;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.contact .subscribe .address .follow h3 {
+  font-family: "Protest Revolution", sans-serif;
+  position: relative;
+  left: 120px;
+}
+
+.contact .subscribe .address .follow .icon {
+  letter-spacing: 5px;
+  margin-top: 8px;
+  position: relative;
+  left: 115px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact .subscribe .address .follow .icon i:hover {
+  color: #98e54c;
+}
