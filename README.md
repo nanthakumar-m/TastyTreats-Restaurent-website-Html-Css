@@ -12,7 +12,7 @@ The site features a clean landing section, menu highlights, promotional banners,
 - HTML5
 - CSS3
 
-## 🎯 Learning Objectives / Concepts Practiced
+## 🎯 What I Gained  / Concepts Practiced
 
 This project was developed to strengthen my front-end design skills by focusing on:
 
