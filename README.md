@@ -3,6 +3,10 @@ TastyTreats is a static, front-end restaurant website built using HTML and CSS. 
 
 The site features a clean landing section, menu highlights, promotional banners, and a stylish contact/subscription area — all crafted with modern design principles using pure CSS.
 
+🔗👉 click here to see the live demo-->https://nanthakumar-m.github.io/TastyTreats-Restaurent-website-Html-Css/
+
+🚫 Note: This website is not responsive and is best viewed on desktop screens.
+
 ## ⚙️ Technologies Used
 
 - HTML5
@@ -23,9 +27,7 @@ This project was developed to strengthen my front-end design skills by focusing 
 ✅ Typography and aesthetic improvement using custom fonts
 
 
-🔗👉 click here to see the live demo-->https://nanthakumar-m.github.io/TastyTreats-Restaurent-website-Html-Css/
 
-🚫 Note: This website is not responsive and is best viewed on desktop screens.
 
 
 ## Screenshots
